@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    /* ... other custom properties ... */
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    /* ... other custom properties ... */
+  }
+}
+
+@layer utilities {
+  .bg-background {
+    background-color: black;
+  }
+  .text-foreground {
+    color: hsl(var(--foreground));
+  }
+  /* Add other custom utilities if needed */
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+  body::-webkit-scrollbar{
+    display: none;
+  }
+}
