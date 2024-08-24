@@ -12,15 +12,14 @@ const stats = [
 export default function About() {
   return (
     <div className="text-white">
-        
       {/* Introduction Section */}
       <div className="relative isolate overflow-hidden py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Movie-Quest</h1>
           <p className="mt-6 text-lg leading-8 text-gray-300 max-w-4xl mx-auto">
             Welcome to Movie-Quest, your ultimate destination for discovering and exploring movies. 
-            Whether you're a film enthusiast looking for your next favorite movie or just browsing 
-            for something to watch tonight, we’ve got you covered. Our extensive database and personalized 
+            Whether you&apos;re a film enthusiast looking for your next favorite movie or just browsing 
+            for something to watch tonight, we&apos;ve got you covered. Our extensive database and personalized 
             recommendations make it easy to find the perfect film.
           </p>
         </div>
