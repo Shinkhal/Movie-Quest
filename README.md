@@ -23,8 +23,8 @@ This is a Next.js application for searching and viewing information about movies
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/movie-search-app.git
-   cd movie-search-app
+   git clone https://github.com/Shinkhal/Movie-Quest.git
+   cd movie-quest
    ```
 
 2. **Install dependencies:**
